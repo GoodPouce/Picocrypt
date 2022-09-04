@@ -5,7 +5,7 @@ Picocrypt est un outil de chiffrement très petit (d'où <i>Pico</i>), très sim
 <p align="center"><img align="center" src="/images/screenshot.png" width="384" alt="Picocrypt"></p>
 
 # Financement
-Veuillez faire un don à Picocrypt sur <a href="https://opencollective.com/picocrypt">Open Collective</a> (les cryptomonnaies sont acceptés) pour collecter des fonds pour un audit potentiel de type Cure53. Comme il s'agit d'un projet sur lequel je passe de nombreuses heures, qui ne me rapportent pas d'argent, je ne peux pas payer moi-même cet audit. <i>Picocrypt a besoin du soutien de sa communauté pour se faire.</i>
+Veuillez faire un don à Picocrypt sur <a href="https://opencollective.com/picocrypt">Open Collective</a> (les cryptomonnaies sont acceptées) pour collecter des fonds pour un audit potentiel de type Cure53. Comme il s'agit d'un projet sur lequel je passe de nombreuses heures, qui ne me rapportent pas d'argent, je ne peux pas payer moi-même cet audit. <i>Picocrypt a besoin du soutien de sa communauté pour se faire.</i>
 
 # Téléghargements
 ## Windows
@@ -15,10 +15,10 @@ Picocrypt pour Windows est aussi simple que possible. Pour télécharger le dern
 Picocrypt pour macOS est également très simple. Téléchargez Picocrypt https://github.com/HACKERALERT/Picocrypt/releases/download/1.24/Picocrypt.app.zip
 
 ## Linux
-Un Snap est disponible pour Linux. En supposant que vous êtes sur un système basé sur Debian, un simple `apt install snapd` et `snap install picocrypt` suffiront. Pour les autres distributions telles que Fedora, des instructions détaillées sont disponibles sur https://snapcraft.io/picocrypt. En raison de la complexité des dépendances et des liens statiques, je ne distribue pas de fichiers binaires .deb ou .rpm autonomes car ils ne seraient pas fiables et donc n'en valent pas la peine. Snapcraft gère automatiquement toutes les dépendances, les temps d'exécution et constitue la méthode qui est recommandée pour exécuter Picocrypt sur n'importe quelle distribution Linux majeure. De plus, Snapcraft offre une meilleure sécurité et conteneurisation que Flatpaks et AppImages, ce qui est important pour un outil de chiffrement comme Picocrypt. Si vous préférez ne pas traiter avec Canonical, rappelez-vous que la construction à partir du source est toujours une option.
+Un Snap est disponible pour Linux. En supposant que vous êtes sur un système basé sur Debian, un simple `apt install snapd` et `snap install picocrypt` suffiront. Pour les autres distributions telles que Fedora, des instructions détaillées sont disponibles sur https://snapcraft.io/picocrypt. En raison de la complexité des dépendances et des liens statiques, je ne distribue pas de fichiers binaires .deb ou .rpm autonomes car ils ne seraient pas fiables et donc n'en valent pas la peine. Snapcraft gère automatiquement toutes les dépendances, les temps d'exécution et constitue la méthode qui est recommandée pour exécuter Picocrypt sur n'importe quelle distribution Linux majeure. De plus, Snapcraft offre une meilleure sécurité et conteneurisation que Flatpaks et AppImages, ce qui est important pour un outil de chiffrement comme Picocrypt. Si vous préférez ne pas traiter avec Canonical, rappelez-vous que la construction à partir du code source est toujours une option.
 
 ## Paranoid Packs
-Le Paranoid Packs est une archive compressée qui contient des exécutables pour chaque version de Picocrypt historiquement publiée pour Windows, macOS et Linux. Tant que vous l'a sauvegardé dans un endroit auquel vous pouvez accéder, vous pourrez ouvrir l'archive et utiliser n'importe quelle version de Picocrypt au cas où ce référentiel disparaîtrait mystérieusement ou si tout Internet brûlait. Considérez lae Paranoid Pack comme un coffre-fort de semences pour Picocrypt. Tant qu'une personne a le Paranoid Pack à portée de main, elle peut le partager avec le reste du monde et garder Picocrypt fonctionnel en cas d'événements catastrophiques comme GitHub s'arrêtant soudainement ou la NSA me capturant (juste au cas où, vous savez ?) . La meilleure façon de s'assurer que Picocrypt est accessible dans plusieurs décennies est de conserver un pack Paranoid dans un endroit sûr. Donc, si vous craignez de ne plus pouvoir accéder à Picocrypt à l'avenir, eh bien, voici votre solution. Rendez-vous simplement dans l'onglet Versions et procurez-vous en une copie.
+Le Paranoid Packs est une archive compressée qui contient des exécutables pour chaque version de Picocrypt historiquement publiées pour Windows, macOS et Linux. Tant que vous l'avez sauvegardé dans un endroit auquel vous pouvez accéder, vous pourrez ouvrir l'archive et utiliser n'importe quelle version de Picocrypt au cas où ce référentiel disparaîtrait mystérieusement ou si tout Internet brûlait. Considérez le Paranoid Pack comme un coffre-fort de semences pour Picocrypt. Tant qu'une personne a le Paranoid Pack à portée de main, elle peut le partager avec le reste du monde et garder Picocrypt fonctionnel en cas d'événements catastrophiques comme l'arrêt soudain de GitHub ou la NSA me capturant (juste au cas où, vous savez ?). La meilleure façon de s'assurer que Picocrypt est accessible pendant plusieurs décennies est de conserver un Paranoid Pack dans un endroit sûr. Donc, si vous craignez de ne plus pouvoir accéder à Picocrypt à l'avenir, eh bien, voici votre solution. Rendez-vous simplement dans l'onglet Versions et procurez-vous en une copie.
 
 # Pourquoi Picocrypt ?
 Pourquoi devriez-vous utiliser Picocrypt au lieu de BitLocker, NordLocker, VeraCrypt, AxCrypt ou 7-Zip ? Voici quelques raisons pour lesquelles vous devriez choisir Picocrypt :
@@ -26,7 +26,7 @@ Pourquoi devriez-vous utiliser Picocrypt au lieu de BitLocker, NordLocker, VeraC
 
 <li>Contrairement à NordLocker, BitLocker, AxCrypt et à la plupart des fournisseurs de stockage cloud, Picocrypt et ses dépendances sont entièrement open source et auditables. Vous pouvez vérifier par vous-même qu'il n'y a pas de portes dérobées ou de failles.</li>
 
-<li>Picocrypt est <i>minuscule</i>. Alors que NordLocker dépasse 50 Mo et que VeraCrypt dépasse 20 Mo, Picocrypt ne pèse que 3 Mo, soit environ la taille d'une photo haute résolution. Et ce n'est pas tout - Picocrypt est portable (n'a pas besoin d'être installé) et ne nécessite pas de privilèges administrateur/racine.</li>
+<li>Picocrypt est <i>minuscule</i>. Alors que NordLocker dépasse 50 Mo et que VeraCrypt dépasse 20 Mo, Picocrypt ne pèse que 3 Mo, environ la taille d'une photo haute résolution. Et ce n'est pas tout - Picocrypt est portable (il n'a pas besoin d'être installé) et ne nécessite pas de privilèges administrateur/racine.</li>
 
 <li>Picocrypt est plus facile et plus productif à utiliser que VeraCrypt. Pour chiffrer des fichiers avec VeraCrypt, vous devez passer au moins cinq minutes à configurer un volume. Avec l'interface utilisateur simple de Picocrypt, tout ce que vous avez à faire est de faire glisser et déposer vos fichiers, d'entrer un mot de passe et d'appuyer sur Démarrer. Toutes les procédures complexes sont gérées par Picocrypt en interne. Qui a dit que le chiffrement sécurisé ne pouvait pas être simple ?</li>
 
@@ -50,9 +50,9 @@ Tout en étant simple, Picocrypt s'efforce également d'être puissant entre les
 
 <li><strong>Générateur de mots de passe</strong> : Picocrypt fournit un générateur de mots de passe sécurisé que vous pouvez utiliser pour créer des mots de passe sécurisés par chiffrement. Vous pouvez personnaliser la longueur du mot de passe, ainsi que les types de caractères à inclure.</li>
 
-<li><strong>Métadonnées du fichier</strong> : utilisez-les pour stocker des notes, des informations et du texte avec le fichier (il ne sera pas chiffré). Par exemple, vous pouvez mettre une description du fichier que vous cryptez avant de l'envoyer à quelqu'un. Lorsque la personne à qui vous l'avez envoyé dépose le fichier dans Picocrypt, votre description lui sera montrée.</li>
+<li><strong>Commentaires</strong> : utilisez-les pour stocker des notes, des informations et du texte avec le fichier (il ne sera pas chiffré). Par exemple, vous pouvez mettre une description du fichier que vous cryptez avant de l'envoyer à quelqu'un. Lorsque la personne à qui vous l'avez envoyé dépose le fichier dans Picocrypt, votre description lui sera montrée.</li>
 
-<li><strong>Fichiers clés</strong> : Picocrypt prend en charge l'utilisation de fichiers clés comme forme d'authentification supplémentaire. Non seulement vous pouvez utiliser plusieurs fichiers de clés, mais vous pouvez également exiger que le bon ordre des fichiers de clés soit présent, pour qu'un déchiffrement réussisse. Un cas d'utilisation particulièrement intéressant  avec  plusieurs fichiers de clés est la création d'un volume partagé, où chaque personne détient un fichier de clés, et tous (et leurs fichiers de clés) doivent être présents afin de déchiffrer le volume partagé.</li>
+<li><strong>Fichiers clés</strong> : Picocrypt prend en charge l'utilisation de fichiers clés comme forme d'authentification supplémentaire. Non seulement vous pouvez utiliser plusieurs fichiers de clés, mais vous pouvez également exiger que le bon ordre des fichiers de clés soit présent, pour qu'un déchiffrement réussisse. Un cas d'utilisation particulièrement intéressant avec plusieurs fichiers de clés est la création d'un volume partagé, où chaque personne détient un fichier de clés, et tous (et leurs fichiers de clés) doivent être présents afin de déchiffrer le volume partagé.</li>
 
 <li><strong>Mode paranoïaque</strong> : l'utilisation de ce mode chiffrera vos données avec XChaCha20 et Serpent en cascade, et utilisera HMAC-SHA3 pour authentifier les données au lieu de BLAKE2b. Ceci est recommandé pour protéger les fichiers top-secrets et offre le plus haut niveau de sécurité pratique possible. Pour qu'un pirate informatique déchiffre vos données chiffrées, le chiffrement XChaCha20 et le chiffrement Serpent doivent être cassés, en supposant que vous avez choisi un bon mot de passe.</li>
 
@@ -60,7 +60,9 @@ Tout en étant simple, Picocrypt s'efforce également d'être puissant entre les
 
 <li><strong>Conserver la sortie déchiffrée même si elle est corrompue ou modifiée</strong> : Picocrypt vérifie automatiquement l'intégrité lors du déchiffrement. Si le fichier a été modifié ou est corrompu, Picocrypt supprimera automatiquement la sortie pour la sécurité de l'utilisateur. Si vous souhaitez conserver les données corrompues ou modifiées après décryptage, cochez cette option. De plus, si cette option est cochée et que la fonction Reed-Solomon a été utilisée sur le fichier crypté, Picocrypt tentera de récupérer autant que possible le contenu du fichier lors du décryptage.</li>
 
-<li><strong>Divisez les fichiers en morceaux</strong> : vous n'avez pas envie de gérer des fichiers gargantuesques ? Pas de soucis! Avec Picocrypt, vous pouvez choisir de diviser votre fichier de sortie en morceaux de taille personnalisée, afin que les fichiers volumineux deviennent plus faciles à gérer et à télécharger vers les fournisseurs de cloud. Choisissez simplement une unité (Kibibit, Mebibyte, or Gibibyte)) et entrez le nombre souhaité pour cette unité. Pour déchiffrer les morceaux, faites simplement glisser l'un d'entre eux dans Picocrypt, et les morceaux seront automatiquement recombinés pendant le déchiffrement.</li>
+<li><strong>Diviser les fichiers en morceaux</strong> : vous n'avez pas envie de gérer des fichiers gargantuesques ? Pas de soucis! Avec Picocrypt, vous pouvez choisir de diviser votre fichier de sortie en morceaux de taille personnalisée, afin que les fichiers volumineux deviennent plus faciles à gérer et à télécharger vers les fournisseurs de cloud. Choisissez simplement une unité (KiloOctets, MegaOctets, GigaOctets, ou TeraOctets) et entrez le nombre souhaité pour cette unité. Pour déchiffrer les morceaux, faites simplement glisser l'un d'entre eux dans Picocrypt, et les morceaux seront automatiquement recombinés pendant le déchiffrement.</li>
+
+<li><strong>Compresser les fichiers</strong> : par défaut, Picocrypt utilise un fichier zip sans compression pour fusionner rapidement les fichiers entre eux lors du cryptage de plusieurs fichiers. Si vous souhaitez toutefois compresser ces fichiers, il suffit de cocher cette case et l'algorithme de compression standard Deflate sera appliqué pendant le cryptage.
 
 </ul>
 
@@ -68,9 +70,23 @@ Tout en étant simple, Picocrypt s'efforce également d'être puissant entre les
 
 Pour plus d'informations sur la façon dont Picocrypt gère la cryptographie, voir <a href="/Internals.md">Internes</a> pour les détails techniques. Si vous vous inquiétez pour ma sécurité ou celle de ce projet, laissez-moi vous assurer que ce référentiel ne sera pas piraté ou détourné. J'ai 2FA (TOTP) activé sur tous les comptes liés à Picocrypt (GitHub, Google, Reddit, Ubuntu One/Snapcraft, Discord, etc.), en plus du cryptage complet du disque sur tous mes appareils portables. Pour un renforcement supplémentaire, Picocrypt utilise mes fourches isolées de dépendances et je ne récupère en amont que lorsque j'ai examiné les modifications et que je pense qu'il n'y a pas de problèmes de sécurité. Cela signifie que si une dépendance est piratée ou supprimée par l'auteur, Picocrypt en utilisera mon fork et ne sera absolument pas affecté. Vous pouvez être sûr d'utiliser Picocrypt.
 
+## Signatures
+Pour les paranoïaques, Picocrypt est signé avec PGP. L'empreinte et la clé publique sont listées ci-dessous.
+
+<pre>B342A744BDEEA57B6A583E33A247E73798946F55</pre>
+<pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEYoGUHxYJKwYBBAHaRw8BAQdAvmQA+pdbDB/ynJxHhNDpz6Sb5tgkNuuNJIvw
+HYwZtqi0CVBpY29jcnlwdIiTBBMWCgA7FiEEs0KnRL3upXtqWD4zokfnN5iUb1UF
+AmKBlB8CGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQokfnN5iUb1UZ
+RgEA8jbIsdqCr21DWxcqW/eLlbxRkuA8kflVYvWWUxtVqsUA/jQPSDpvA8rakvaL
+PIbXjQvrAMkEVIc0HbCzLxr1k3sH
+=YFwz
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+
 # Communauté
 
-Voici quelques endroits où vous pouvez rester à jour à propos de  Picocrypt et vous impliquer :
+Voici quelques endroits où vous pouvez rester à jour à propos de Picocrypt et vous impliquer :
 
 <ul>
   <li><a href="https://www.reddit.com/r/Picocrypt/">Reddit</a></li>
@@ -87,7 +103,7 @@ Comment va Picocrypt ? Jetez un œil ci-dessous pour le savoir.
 
 # Dons
 
-Si vous trouvez Picocrypt utile, veuillez envisager de donner un don via mon [PayPal](https://paypal.me/evanyiwensu). Je fournis ce logiciel entièrement gratuitement et j'aimerais avoir des supporters  et qui me motivent  à continuer mon travail sur Picocrypt.
+Si vous trouvez Picocrypt utile, veuillez envisager de faire une donation via mon [PayPal](https://paypal.me/evanyiwensu). Je fournis ce logiciel entièrement gratuitement et j'aimerais avoir des supporters qui me motivent à continuer à travailler sur Picocrypt.
 
 # Merci
 
@@ -130,7 +146,7 @@ De plus, un grand merci à ces personnes, qui ont aidé à traduire Picocrypt et
   <li>Michel pour francais</li>
 </ul>
 
-Enfin, merci à ces personnes de m'avoir aidé dés que le besoin s'en est fait sentir :
+Enfin, merci à ces personnes de m'avoir aidé dès que le besoin s'en est fait sentir :
 
 <ul>
 <li>Fuderal sur Discord pour m'avoir aidé à configurer un serveur Discord</li>
